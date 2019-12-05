@@ -16,8 +16,6 @@ class FileManagerHelper {
     // each apple creates its own sandbox.
     // sandbox area for this spefcific app.
     
-    private let fileManagerHelper = FileManagerHelper()
-    private init() {}
     static public func documentDirectory() -> URL {
         return FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
     }

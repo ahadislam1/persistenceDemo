@@ -16,6 +16,7 @@
 		E1D6940423998FD600BBCB0B /* doucmentsDirecitoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6940323998FD600BBCB0B /* doucmentsDirecitoryTests.swift */; };
 		E1D6940F239990EF00BBCB0B /* FileManagerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6940E239990EF00BBCB0B /* FileManagerHelper.swift */; };
 		E1D69411239992E900BBCB0B /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D69410239992E900BBCB0B /* Restaurants.swift */; };
+		E1D69413239993A800BBCB0B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D69412239993A800BBCB0B /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		E1D6940523998FD600BBCB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1D6940E239990EF00BBCB0B /* FileManagerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerHelper.swift; sourceTree = "<group>"; };
 		E1D69410239992E900BBCB0B /* Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		E1D69412239993A800BBCB0B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,6 @@
 		E1D693E023998FD400BBCB0B = {
 			isa = PBXGroup;
 			children = (
-				E1D69410239992E900BBCB0B /* Restaurants.swift */,
 				E1D693EB23998FD400BBCB0B /* doucmentsDirecitory */,
 				E1D6940223998FD600BBCB0B /* doucmentsDirecitoryTests */,
 				E1D693EA23998FD400BBCB0B /* Products */,
@@ -84,6 +85,8 @@
 		E1D693EB23998FD400BBCB0B /* doucmentsDirecitory */ = {
 			isa = PBXGroup;
 			children = (
+				E1D69410239992E900BBCB0B /* Restaurants.swift */,
+				E1D69412239993A800BBCB0B /* DataManager.swift */,
 				E1D693EC23998FD400BBCB0B /* AppDelegate.swift */,
 				E1D693EE23998FD400BBCB0B /* SceneDelegate.swift */,
 				E1D693F023998FD400BBCB0B /* ViewController.swift */,
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1D69411239992E900BBCB0B /* Restaurants.swift in Sources */,
+				E1D69413239993A800BBCB0B /* DataManager.swift in Sources */,
 				E1D693F123998FD400BBCB0B /* ViewController.swift in Sources */,
 				E1D6940F239990EF00BBCB0B /* FileManagerHelper.swift in Sources */,
 				E1D693ED23998FD400BBCB0B /* AppDelegate.swift in Sources */,
